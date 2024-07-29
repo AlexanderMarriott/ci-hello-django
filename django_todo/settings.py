@@ -29,7 +29,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-alexanderma-cihellodjan-8rc8rhi2z03.ws-eu115.gitpod.io']
+ALLOWED_HOSTS = ['8000-alexanderma-cihellodjan-kmqakmi7n3m.ws.codeinstitute-ide.net']
 
 
 # Application definition
