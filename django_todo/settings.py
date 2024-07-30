@@ -28,11 +28,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-alexanderma-cihellodjan-kmqakmi7n3m.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['django-todo-b61c5a699f2c.herokuapp.com']
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-alexanderma-cihellodjan-kmqakmi7n3m.ws.codeinstitute-ide.net']
+CSRF_TRUSTED_ORIGINS = ['https://django-todo-b61c5a699f2c.herokuapp.com/']
 
 # Application definition
 
